@@ -246,7 +246,7 @@
 						<div class="row">
 							<div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-12">
 								<div class="slider-text text-center">
-									<h1>A Highly Secured Platform for <span>Educational</span> Verification</h1>
+									<h1>A Highly Secured Platform for <span>Education</span> Record Verification</h1>
 									<p>Our mission is to empower clients, colleagues, and communities to achieve aspirations while building lasting, caring relationships.</p>
 									<div class="button">
 										<a href="#" class="btn primary">Verification Portal</a>
@@ -279,8 +279,119 @@
 			</div>
 		</section>
 		<!--/ End Slider Area -->
+		<style>
+				#map{
+				  height:400px;
+				  width:100%;
+				}
+			  </style>
 		
-		
+		<div id="map"></div>
+		<script>
+		  function initMap(){
+			// Map options
+			var options = {
+			  zoom:7,
+			  center:{lat:9.3414281,lng:9.3917518},
+			  mapTypeId: google.maps.MapTypeId.HYBRID
+			}
+	  
+			// New map
+			var map = new google.maps.Map(document.getElementById('map'), options);
+	  
+			// Listen for click on map
+			google.maps.event.addListener(map, 'click', function(event){
+			  // Add marker
+			  //addMarker({coords:event.latLng});
+			});
+	  
+			/*
+			// Add marker
+			var marker = new google.maps.Marker({
+			  position:{lat:42.4668,lng:-70.9495},
+			  map:map,
+			  icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+			});
+	  
+			var infoWindow = new google.maps.InfoWindow({
+			  content:'<h1>Lynn MA</h1>'
+			});
+	  
+			marker.addListener('click', function(){
+			  infoWindow.open(map, marker);
+			});
+			*/
+	  
+	  
+			// Array of markers
+			var markers = [
+			  <?php
+				  include("includes/db.php");
+				  $query =mysqli_query($conn, "SELECT * FROM school") or die (mysqli_error($conn));
+				  while($row = mysqli_fetch_assoc($query)){
+					  $lon = $row['longitude'];
+					  $lat = $row['latitude'];
+					  $school = $row['name']. " ,".$row['location'];
+					  echo"{
+						  coords:{lat:$lon,lng:$lat},
+						  content:'$school'
+						  
+					  },";
+				  }
+				?>
+			  
+			  {
+				coords:{lat:42.4668,lng:-70.9495},
+				iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+				content:'<h1>Lynn MA</h1>'
+			  },
+			  {
+				coords:{lat:42.8584,lng:-70.9300},
+				content:'<h1>Amesbury MA</h1>'
+			  },
+			  {
+				coords:{lat:42.7762,lng:-71.0773}
+			  }
+			];
+	  
+			// Loop through markers
+			for(var i = 0;i < markers.length;i++){
+			  // Add marker
+			  addMarker(markers[i]);
+			}
+	  
+			// Add Marker Function
+			function addMarker(props){
+			  var marker = new google.maps.Marker({
+				position:props.coords,
+				map:map,
+				//icon:props.iconImage
+			  });
+	  
+			  // Check for customicon
+			  if(props.iconImage){
+				// Set icon image
+				marker.setIcon(props.iconImage);
+			  }
+	  
+			  // Check content
+			  if(props.content){
+				var infoWindow = new google.maps.InfoWindow({
+				  content:props.content
+				});
+	  
+				marker.addListener('mouseover', function(){
+				  infoWindow.open(map, marker);
+				});
+			  }
+			}
+		  }
+		</script>
+		<script async defer
+		  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpUnsp69KIVbh6tMHPNdj_yqT6pKtrN4A&callback=initMap">
+		</script>
+
+
 		<!-- Events -->
 		<section class="events section">
 			<div class="container">
@@ -541,8 +652,9 @@
 		<script src="js/wow.min.js"></script>
 		<!-- Scroll Up JS-->
         <script src="js/jquery.scrollUp.min.js"></script>
-		<!-- Google Maps JS -->
-		<script src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
+		<!-- Google Maps JS
+        <script src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
+         -->
         <script src="js/gmaps.min.js"></script>
 		<!-- Main JS-->
         <script src="js/main.js"></script>
