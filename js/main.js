@@ -54,8 +54,8 @@ Version:	1.0
 			Slider Active JS
 		======================================*/ 
 		$('.slider-active').owlCarousel({
-			autoplay:true,
-			autoplayTimeout:3500,
+			autoplay:false,
+			autoplayTimeout:35000,
 			autoplayHoverPause:true,
 			items:1,
 			smartSpeed: 600,
