@@ -5,8 +5,8 @@ $(document).ready(function(){
 	var map;
 	map = new GMaps({
 		el: '#map',
-		lat: 51.507351,
-		lng: -0.127758,
+		lat: 9.0096598,
+		lng: 7.4824673,
 		scrollwheel:false,
 		zoom: 15,
 		zoomControl : false,
@@ -19,8 +19,8 @@ $(document).ready(function(){
 
 	var image = 'images/map.png';
 	map.addMarker({
-		lat: 51.507351,
-		lng: -0.127758,
+		lat: 9.0096598,
+		lng: 7.4824673,
 		icon: image,
 		animation: google.maps.Animation.DROP,
 		verticalAlign: 'bottom',
