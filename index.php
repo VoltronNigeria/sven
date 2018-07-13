@@ -68,7 +68,7 @@
 						<div class="row">
 							<div class="col-lg-8 col-md-8 col-12">
 								<div class="slider-text">
-									<h1>A Certral Database for <span>Nigeria</span> & Educational System</h1>
+									<h1>A Central Database for <span>Nigeria's</span> & Education System</h1>
 									<p>Our mission is to empower clients, colleagues, and communities to achieve aspirations while building lasting, caring relationships.</p>
 									<div class="button">
 										<a href="#" class="btn primary">Learn More</a>
@@ -86,7 +86,7 @@
 						<div class="row">
 							<div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-12">
 								<div class="slider-text text-center">
-									<h1>A Highly Secured Platform for <span>Education</span> Record Verification</h1>
+									<h1>A Secured Platform for <span>Education</span> Record Verification</h1>
 									<p>Our mission is to empower clients, colleagues, and communities to achieve aspirations while building lasting, caring relationships.</p>
 									<div class="button">
 										<a href="#" class="btn primary">Verification Portal</a>

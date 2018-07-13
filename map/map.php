@@ -121,6 +121,6 @@
   </script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpUnsp69KIVbh6tMHPNdj_yqT6pKtrN4A&callback=initMap">
-    </script>
+  </script>
 </body>
 </html>
