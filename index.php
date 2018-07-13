@@ -54,169 +54,9 @@
 		<link rel="stylesheet" href="#" id="colors">	
     </head>
     <body>
-	<!--Start of Tawk.to Script-->
-	<script type="text/javascript">
-		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-		(function(){
-			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-			s1.async=true;
-			s1.src='https://embed.tawk.to/5b4297b26d961556373d8447/default';
-			s1.charset='UTF-8';
-			s1.setAttribute('crossorigin','*');
-			s0.parentNode.insertBefore(s1,s0);
-		})();
-	</script>
-	<!--End of Tawk.to Script-->
-	
-		<!-- Book Preloader -->
-        <div class="book_preload">
-            <div class="book">
-                <div class="book__page"></div>
-                <div class="book__page"></div>
-                <div class="book__page"></div>
-            </div>
-        </div>
-		<!--/ End Book Preloader -->
-	
-		<!-- Mp Color 
-		<div class="mp-color">
-			<div class="icon inOut"><i class="fa fa-cog fa-spin"></i></div>
-			<h4>Choose Color</h4>
-			<span class="color1"></span>
-			<span class="color2"></span>
-			<span class="color3"></span>
-			<span class="color4"></span>
-			<span class="color5"></span>
-			<span class="color6"></span>
-			<span class="color7"></span>
-			<span class="color8"></span>
-		</div>
-		 End Mp Color -->
-	
-		<!-- Header -->
-		<header class="header">
-			<!-- Topbar -->
-			<div class="topbar">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8 col-12">
-							<!-- Contact -->
-							<ul class="content">
-								<li><a href=""><i class="fa fa-money"></i>Payment Portal</a></li>
-								<li><i class="fa fa-pencil"></i>Verification Portal</li>
-								<li><i class="fa fa-clock-o"></i>Student Portal</li>
-							</ul>
-							<!-- End Contact -->
-						</div>
-						<div class="col-lg-4 col-12">
-							<!-- Social -->
-							<ul class="social">
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus "></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-							</ul>
-							<!-- End Social -->
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Topbar -->
-			<!-- Header Inner -->
-			<div class="header-inner">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-12">
-							<div class="logo">
-								<a href="index.html"><img src="images/logo.png" alt="#"></a>
-							</div>
-							<div class="mobile-menu"></div>
-						</div>
-						<div class="col-lg-9 col-md-9 col-12">
-							<!-- Header Widget -->
-							<div class="header-widget">
-								<div class="single-widget">
-									<i class="fa fa-phone"></i>
-									<h4>Call Now<span>(+234) 0803 0718 122</span></h4>
-								</div>
-								<div class="single-widget">
-									<i class="fa fa-envelope-o"></i>
-									<h4>Send Message<a href="mailto:info@nevs.com.ng"><span>info@nevs.com.ng</span></a></h4>
-								</div>
-								<div class="single-widget">
-									<i class="fa fa-map-marker"></i>
-									<h4>Our Location<span>4119 TSM House Gudu, Apo Abuja</span></h4>
-								</div>
-							</div>
-							<!--/ End Header Widget -->
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ End Header Inner -->
-			<!-- Header Menu -->
-			<div class="header-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<nav class="navbar navbar-default">
-								<div class="navbar-collapse">
-									<!-- Main Menu -->
-									<ul id="nav" class="nav menu navbar-nav">
-										<li class="active"><a href="index.html">Home<i></i></a>
-											<!-- <ul class="dropdown">
-												<li><a href="index.html">Homepage Default</a></li>
-												<li><a href="index2.html">Homepage Animation</a></li>
-											</ul> -->
-										</li>
-										<li><a href="#">ABOUT NEVS<i></i></a>
-											
-										</li>
-										<li><a href="#">FAQs<i></i></a> 
-											<!--<ul class="dropdown">
-												<li><a href="#">Courses</a></li>
-												<li><a href="#">Course Single</a></li>
-												<li><a href="#">Course Single Video</a></li>
-											</ul>-->
-										</li>
-										<li><a href="#">Governing Bodies<i class="fa fa-angle-down"></i></a> 
-											<ul class="dropdown">
-												<li><a href="#">Ministry of Education</a></li>
-												<li><a href="#">Nigeria Universities Commission</a></li>
-												<li><a href="#">National Board of Technical Education</a></li>
-												<li><a href="#">National Commmsion of Colleges of Education</a></li>
-			
-											</ul>
-										</li>
-										
-										<!--<li><a href="#">Blogs<i class="fa fa-angle-down"></i></a>
-											<ul class="dropdown">
-												<li><a href="blogs.html">Blogs Grid Layout</a></li>
-												<li><a href="blogs-left-sidebar.html">Blogs Left Sidebar</a></li>
-												<li><a href="blogs-right-sidebar.html">Blogs Right Sidebar</a></li>
-												<li><a href="blog-single-left-sidebar.html">Blogs Single - Left Sidebar</a></li>
-												<li><a href="blog-single.html">Blogs Single - Right Sidebar</a></li>
-											</ul>
-										</li>-->
-										<li><a href="contact.html">Contact</a></li>
-									</ul>
-									<!-- End Main Menu -->
-									<!-- button -->
-									<div class="button">
-										<a href="login/" class="btn"><i class="fa fa-home"></i>Portal</a>
-									</div>
-									<!--/ End Button -->
-								</div> 
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ End Header Menu -->
-		</header>
+
+
+<?php include('helpers/header.php'); ?>
 		<!-- End Header -->
 		
 		<!-- Slider Area -->
@@ -287,109 +127,113 @@
 			  </style>
 		
 		<div id="map"></div>
-		<script>
-		  function initMap(){
-			// Map options
-			var options = {
-			  zoom:7,
-			  center:{lat:9.3414281,lng:9.3917518},
-			  mapTypeId: google.maps.MapTypeId.HYBRID
-			}
-	  
-			// New map
-			var map = new google.maps.Map(document.getElementById('map'), options);
-	  
-			// Listen for click on map
-			google.maps.event.addListener(map, 'click', function(event){
-			  // Add marker
-			  //addMarker({coords:event.latLng});
-			});
-	  
-			/*
-			// Add marker
-			var marker = new google.maps.Marker({
-			  position:{lat:42.4668,lng:-70.9495},
-			  map:map,
-			  icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-			});
-	  
-			var infoWindow = new google.maps.InfoWindow({
-			  content:'<h1>Lynn MA</h1>'
-			});
-	  
-			marker.addListener('click', function(){
-			  infoWindow.open(map, marker);
-			});
-			*/
-	  
-	  
-			// Array of markers
-			var markers = [
-			  <?php
-				  include("includes/db.php");
-				  $query =mysqli_query($conn, "SELECT * FROM school") or die (mysqli_error($conn));
-				  while($row = mysqli_fetch_assoc($query)){
-					  $lon = $row['longitude'];
-					  $lat = $row['latitude'];
-					  $school = $row['name']. " ,".$row['location'];
-					  echo"{
-						  coords:{lat:$lon,lng:$lat},
-						  content:'$school'
-						  
-					  },";
-				  }
-				?>
-			  
-			  {
-				coords:{lat:42.4668,lng:-70.9495},
-				iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-				content:'<h1>Lynn MA</h1>'
-			  },
-			  {
-				coords:{lat:42.8584,lng:-70.9300},
-				content:'<h1>Amesbury MA</h1>'
-			  },
-			  {
-				coords:{lat:42.7762,lng:-71.0773}
-			  }
-			];
-	  
-			// Loop through markers
-			for(var i = 0;i < markers.length;i++){
-			  // Add marker
-			  addMarker(markers[i]);
-			}
-	  
-			// Add Marker Function
-			function addMarker(props){
-			  var marker = new google.maps.Marker({
-				position:props.coords,
-				map:map,
-				//icon:props.iconImage
-			  });
-	  
-			  // Check for customicon
-			  if(props.iconImage){
-				// Set icon image
-				marker.setIcon(props.iconImage);
-			  }
-	  
-			  // Check content
-			  if(props.content){
-				var infoWindow = new google.maps.InfoWindow({
-				  content:props.content
-				});
-	  
-				marker.addListener('mouseover', function(){
-				  infoWindow.open(map, marker);
-				});
-			  }
-			}
-		  }
-		</script>
-		<script async defer
-		  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpUnsp69KIVbh6tMHPNdj_yqT6pKtrN4A&callback=initMap">
-		</script>
+  <script>
+    function initMap(){
+      // Map options
+      var options = {
+        zoom:7,
+        center:{lat:9.3414281,lng:9.3917518},
+        mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+
+      // New map
+      var map = new google.maps.Map(document.getElementById('map'), options);
+
+      // Listen for click on map
+      google.maps.event.addListener(map, 'click', function(event){
+        // Add marker
+        //addMarker({coords:event.latLng});
+      });
+
+      /*
+      // Add marker
+      var marker = new google.maps.Marker({
+        position:{lat:42.4668,lng:-70.9495},
+        map:map,
+        icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+      });
+
+      var infoWindow = new google.maps.InfoWindow({
+        content:'<h1>Lynn MA</h1>'
+      });
+
+      marker.addListener('click', function(){
+        infoWindow.open(map, marker);
+      });
+      */
+
+
+      // Array of markers
+      var markers = [
+        <?php
+            include("includes/db.php");
+            $query =mysqli_query($conn, "SELECT * FROM school") or die (mysqli_error($conn));
+            while($row = mysqli_fetch_assoc($query)){
+                $lon = $row['longitude'];
+                $lat = $row['latitude'];
+                $school = $row['name']. " ,".$row['location'];
+                $marker = "map/markers/red48.png";
+                if($row['status']==1){
+                    $marker = "map/markers/green48.png";
+                }
+                echo"{
+                    coords:{lat:$lon,lng:$lat},
+                    content:'$school',
+                    iconImage: '$marker'
+                },";
+            }
+          ?>
+        
+        {
+          coords:{lat:42.4668,lng:-70.9495},
+          iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+          content:'<h1>Lynn MA</h1>'
+        },
+        {
+          coords:{lat:42.8584,lng:-70.9300},
+          content:'<h1>Amesbury MA</h1>'
+        },
+        {
+          coords:{lat:42.7762,lng:-71.0773}
+        }
+      ];
+
+      // Loop through markers
+      for(var i = 0;i < markers.length;i++){
+        // Add marker
+        addMarker(markers[i]);
+      }
+
+      // Add Marker Function
+      function addMarker(props){
+        var marker = new google.maps.Marker({
+          position:props.coords,
+          map:map,
+          //icon:props.iconImage
+        });
+
+        // Check for customicon
+        if(props.iconImage){
+          // Set icon image
+          marker.setIcon(props.iconImage);
+        }
+
+        // Check content
+        if(props.content){
+          var infoWindow = new google.maps.InfoWindow({
+            content:props.content
+          });
+
+          marker.addListener('mouseover', function(){
+            infoWindow.open(map, marker);
+          });
+        }
+      }
+    }
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpUnsp69KIVbh6tMHPNdj_yqT6pKtrN4A&callback=initMap">
+  </script>
 
 
 		<!-- Events -->
@@ -518,105 +362,8 @@
 			</div>
 		</div>
 		<!--/ End Fun Facts -->
+		<?php include('helpers/footer.php'); ?>
 
-		<!-- Footer -->
-		<footer class="footer overlay section">
-			<!-- Footer Top -->
-			<div class="footer-top">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-6 col-12">
-							<!-- About -->
-							<div class="single-widget about">
-								<div class="logo"><a href="#"><img src="images/logo3.png" alt="#"></a></div>
-								<p>Nigeria Education Verification System<!--NEVS is a unity platform for Nigeria's Educational governing bodies through 
-									the Federal Ministry of Education to securely access and exchange academic 
-									records --></p>
-								<ul class="list">
-									<li><i class="fa fa-phone"></i>Phone: (+234) 0803 071 8122</li>
-									<li><i class="fa fa-envelope"></i>Email: <a href="mailto:info@nevs.com.ng">info@nevs.com.ng</a></li>
-									<li><i class="fa fa-map-o"></i>Address: 211 Ronad, California, Us</li>
-								</ul>
-							</div>
-							<!--/ End About -->
-						</div>
-						<div class="col-lg-2 col-md-6 col-12">
-							<!-- Useful Links -->
-							<div class="single-widget useful-links">
-								<h2>Useful Links</h2>
-								<ul>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Home</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>About NEVS</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Portal</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Blog</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Contact</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Institutions</a></li>
-								</ul>
-							</div>
-							<!--/ End Useful Links -->
-						</div>
-						<div class="col-lg-4 col-md-6 col-12">							
-							<div class="single-widget useful-links">
-								<h2>Portals</h2>
-								<ul>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Verification System</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Portal</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Payments</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Students</a></li>
- 								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<!-- Newsletter -->
-							<div class="single-widget newsletter">
-								<h2>Subscribe Newsletter</h2>
-								<div class="mail">
-									<p>Don't miss to  subscribe to our news feed, Get the latest updates from us!</p>
-									<div class="form">
-										<input type="email" placeholder="Enter your email">
-										<button class="button" type="submit"><i class="fa fa-envelope"></i></button>
-									</div>
-								</div>
-							</div>
-							<!--/ End Newsletter -->
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ End Footer Top -->
-			<!-- Footer Bottom -->
-			<div class="footer-bottom">
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="bottom-head">
-								<div class="row">
-									<div class="col-12">
-										<!-- Social -->
-										<ul class="social">
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-										</ul>
-										<!-- End Social -->
-										<!-- Copyright -->
-										<div class="copyright">
-											<p>© Copyright 2018 <a href="https://cvit.com.ng">Creating Value Integrated IT Solutions</a>. All Rights Reserved</p>
-										</div>
-										<!--/ End Copyright -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--/ End Footer Bottom -->
-		</footer>
-		<!--/ End Footer -->
-		
 		<!-- Jquery JS-->
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery-migrate.min.js"></script>
