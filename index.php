@@ -1,4 +1,5 @@
 
+<?php $page =1;?>
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
     <head>
@@ -126,6 +127,88 @@
 				}
 			  </style>
 		
+
+		<!-- Events -->
+		<section class="events section">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="section-title">
+							<h2>The NEVS <span>Platform</span></h2>
+							<p>As Nigeria's academic data grid, NEVS is a unity platform for Nigerian Educational governing bodies, higher Institutions, the organized 
+								Private Sector through the Federal Ministry of Education to securely
+								exchange, verify and provide information </p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="event-slider">
+							<!-- Single Event -->
+							<div class="single-event">
+								<div class="head overlay">
+									<img src="images/events/eventc.jpg" alt="#">
+									<a href="images/events/eventc.jpg" data-fancybox="photo" class="btn"><i class="fa fa-search"></i></a>
+								</div>
+								<div class="event-content">
+									<!--<div class="meta"> 
+										<span><i class="fa fa-calendar"></i>05 June 2018</span>
+										<span><i class="fa fa-clock-o"></i>12.00-5.00PM</span>
+									</div>-->
+									<h4><a href="#">Studentship Verification</a></h4>
+									<p>The <a href="#">Verification Portal </a>provides a simple interface for members of the public to verify studentship</p>
+									<div class="button">
+										<a href="#" class="btn">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<!--/ End Single Event -->
+							<!-- Single Event -->
+							<div class="single-event">
+								<div class="head overlay">
+									<img src="images/events/eventa.jpg" alt="#">
+									<a href="images/events/eventa.jpg" data-fancybox="photo" class="btn"><i class="fa fa-search"></i></a>
+								</div>
+								<div class="event-content">
+									<!--<div class="meta">
+										<span><i class="fa fa-calendar"></i>03 July 2018</span>
+										<span><i class="fa fa-clock-o"></i>03.20-5.20PM</span>
+									</div>-->
+									<h4><a href="#">Data Harmonization</a></h4>
+									<p>Through the <a href="#">Educational Central Database</a> NEVS seeks to Harmonize record of Nigerian Students</p>
+									<div class="button">
+										<a href="#" class="btn">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<!--/ End Single Event -->
+							<!-- Single Event -->
+							<div class="single-event">
+								<div class="head overlay">
+									<img src="images/events/eventb.jpg" alt="#">
+									<a href="#" data-fancybox="photo" class="btn"><i class="fa fa-search"></i></a>
+								</div>
+								<div class="event-content">
+									<!--<div class="meta">
+										<span><i class="fa fa-calendar"></i>15 Dec 2018</span>
+										<span><i class="fa fa-clock-o"></i>12.30-5.30PM</span>
+									</div>-->
+									<div class="title">
+										<h4><a href="#">Information Exchange</a></h4>
+										<p>The NEVS platform also serves as an <a href="#">Information Brooker</a> for Higer Institutions in Nigeria</p>
+									</div>
+									<div class="button">
+										<a href="#" class="btn">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<!--/ End Single Event -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Events -->
 		<div id="map"></div>
   <script>
     function initMap(){
@@ -234,90 +317,6 @@
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpUnsp69KIVbh6tMHPNdj_yqT6pKtrN4A&callback=initMap">
   </script>
-
-
-		<!-- Events -->
-		<section class="events section">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="section-title">
-							<h2>The NEVS <span>Platform</span></h2>
-							<p>As Nigeria's academic data grid, NEVS is a unity platform for Nigerian Educational governing bodies, higher Institutions, the organized 
-								Private Sector through the Federal Ministry of Education to securely
-								exchange, verify and provide information </p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="event-slider">
-							<!-- Single Event -->
-							<div class="single-event">
-								<div class="head overlay">
-									<img src="images/events/eventc.jpg" alt="#">
-									<a href="images/events/eventc.jpg" data-fancybox="photo" class="btn"><i class="fa fa-search"></i></a>
-								</div>
-								<div class="event-content">
-									<!--<div class="meta"> 
-										<span><i class="fa fa-calendar"></i>05 June 2018</span>
-										<span><i class="fa fa-clock-o"></i>12.00-5.00PM</span>
-									</div>-->
-									<h4><a href="#">Studentship Verification</a></h4>
-									<p>The <a href="#">Verification Portal </a>provides a simple interface for members of the public to verify studentship</p>
-									<div class="button">
-										<a href="#" class="btn">Learn More</a>
-									</div>
-								</div>
-							</div>
-							<!--/ End Single Event -->
-							<!-- Single Event -->
-							<div class="single-event">
-								<div class="head overlay">
-									<img src="images/events/eventa.jpg" alt="#">
-									<a href="images/events/eventa.jpg" data-fancybox="photo" class="btn"><i class="fa fa-search"></i></a>
-								</div>
-								<div class="event-content">
-									<!--<div class="meta">
-										<span><i class="fa fa-calendar"></i>03 July 2018</span>
-										<span><i class="fa fa-clock-o"></i>03.20-5.20PM</span>
-									</div>-->
-									<h4><a href="#">Data Harmonization</a></h4>
-									<p>Through the <a href="#">Educational Central Database</a> NEVS seeks to Harmonize record of Nigerian Students</p>
-									<div class="button">
-										<a href="#" class="btn">Learn More</a>
-									</div>
-								</div>
-							</div>
-							<!--/ End Single Event -->
-							<!-- Single Event -->
-							<div class="single-event">
-								<div class="head overlay">
-									<img src="images/events/eventb.jpg" alt="#">
-									<a href="#" data-fancybox="photo" class="btn"><i class="fa fa-search"></i></a>
-								</div>
-								<div class="event-content">
-									<!--<div class="meta">
-										<span><i class="fa fa-calendar"></i>15 Dec 2018</span>
-										<span><i class="fa fa-clock-o"></i>12.30-5.30PM</span>
-									</div>-->
-									<div class="title">
-										<h4><a href="#">Information Exchange</a></h4>
-										<p>The NEVS platform also serves as an <a href="#">Information Brooker</a> for Higer Institutions in Nigeria</p>
-									</div>
-									<div class="button">
-										<a href="#" class="btn">Learn More</a>
-									</div>
-								</div>
-							</div>
-							<!--/ End Single Event -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End Events -->
-		
 		<!-- Fun Facts -->
 		<div class="fun-facts overlay" data-stellar-background-ratio="0.5">
 			<div class="container">
@@ -352,7 +351,7 @@
 					<div class="col-lg-3 col-md-6 col-6">
 						<!-- Single Fact -->
 						<div class="single-fact">
-							<i class="fa fa-trophy"></i>
+							<i class="fa "></i>
 							<div class="number"><span class="counter">308</span>+</div>
 							<p>Data Acquisition Centers(DACs)</p>
 						</div>

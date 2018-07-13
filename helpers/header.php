@@ -47,9 +47,7 @@
 						<div class="col-lg-8 col-12">
 							<!-- Contact -->
 							<ul class="content">
-								<li><a href=""><i class="fa fa-money"></i>Payment Portal</a></li>
-								<li><i class="fa fa-pencil"></i>Verification Portal</li>
-								<li><i class="fa fa-clock-o"></i>Student Portal</li>
+								<a href="enrollnow.php"><li><i class="fa fa-pencil"></i>Start Enrollment Now</li></a>
 							</ul>
 							<!-- End Contact -->
 						</div>
@@ -76,7 +74,7 @@
 					<div class="row">
 						<div class="col-lg-3 col-md-3 col-12">
 							<div class="logo">
-								<a href="index.html"><img src="images/logo.png" alt="#"></a>
+								<a href="index.php"><img src="images/logo.png" alt="#"></a>
 							</div>
 							<div class="mobile-menu"></div>
 						</div>
@@ -111,23 +109,23 @@
 								<div class="navbar-collapse">
 									<!-- Main Menu -->
 									<ul id="nav" class="nav menu navbar-nav">
-										<li class="active"><a href="index.html">Home<i></i></a>
+										<li class="<?php if($page == 1){ echo"active";} ?>"><a href="index.php">Home<i></i></a>
 											<!-- <ul class="dropdown">
 												<li><a href="index.html">Homepage Default</a></li>
 												<li><a href="index2.html">Homepage Animation</a></li>
 											</ul> -->
 										</li>
-										<li><a href="#">ABOUT NEVS<i></i></a>
+										<li class="<?php if($page == 2){ echo"active";} ?>"><a href="#">ABOUT NEVS<i></i></a>
 											
 										</li>
-										<li><a href="#">FAQs<i></i></a> 
+										<li class="<?php if($page == 3){ echo"active";} ?>"><a href="#">FAQs<i></i></a> 
 											<!--<ul class="dropdown">
 												<li><a href="#">Courses</a></li>
 												<li><a href="#">Course Single</a></li>
 												<li><a href="#">Course Single Video</a></li>
 											</ul>-->
 										</li>
-										<li><a href="#">Governing Bodies<i class="fa fa-angle-down"></i></a> 
+										<li class="<?php if($page == 4){ echo"active";} ?>" ><a href="#">Governing Bodies<i class="fa fa-angle-down"></i></a> 
 											<ul class="dropdown">
 												<li><a href="#">Ministry of Education</a></li>
 												<li><a href="#">Nigeria Universities Commission</a></li>
@@ -146,7 +144,7 @@
 												<li><a href="blog-single.html">Blogs Single - Right Sidebar</a></li>
 											</ul>
 										</li>-->
-										<li><a href="contact.html">Contact</a></li>
+										<li class="<?php if($page == 5){ echo"active";} ?>"><a href="contact.php">Contact</a></li>
 									</ul>
 									<!-- End Main Menu -->
 									<!-- button -->

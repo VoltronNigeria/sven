@@ -1,4 +1,4 @@
-<?php $page = 5; ?>
+<?php $page = 7; ?>
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
     <head>
@@ -10,7 +10,7 @@
 		<meta name='copyright' content=''>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Title -->
-		<title>Contact  &minus; Nigeria Education Verification System</title>
+		<title>LearnEdu &minus; Education & Courses HTML5 Template</title>
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="images/favicon.png">
 		<!-- Web Font -->
@@ -47,111 +47,114 @@
 		<!--<link rel="stylesheet" href="css/color/color7.css">-->
 		<!--<link rel="stylesheet" href="css/color/color8.css">-->
 		<link rel="stylesheet" href="#" id="colors">	
+		
+
     </head>
     <body>
-		<?php include('helpers/header.php') ?>
+	
 		
-		<!-- Start Breadcrumbs -->
-		<section class="breadcrumbs overlay">
+		<?php include ('helpers/header.php'); ?>
+		
+	
+		<!-- Enroll -->
+		<section class="enroll overlay section" data-stellar-background-ratio="0.5">
 			<div class="container">
 				<div class="row">
-					<div class="col-12">
-						<!--<h2>Contact Pages</h2>-->
-						<ul class="bread-list">
-							<li><a href="index.php">Home<i class="fa fa-angle-right"></i></a></li>
-							<li class="active"><a href="contact.php">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End Breadcrumbs -->
-		
-		<!-- Contact Us -->
-		<section id="contact" class="contact section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-title">
-							<h2><span>Contact</span> Information</h2>
-							<p>Are you an Nigerian Student that needs to get intoch with us? If you are considering any of our products or services, or just want more information, simply fill out the enquiry form and we will get back to you shortly.</p>
-						</div>
-					</div>
-				</div>
-				<div class="contact-head">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-12">
-							<div class="contact-map">
-								<!-- Map -->
-								<div id="map"></div>
-								<!--/ End Map -->
+					<div class="col-lg-10 offset-lg-1">
+						<div class="row">
+							<div class="col-lg-6 col-12">
+								<!-- Single Enroll -->
+								<div class="enroll-form">
+									<div class="form-title">
+										<h2>Enroll Today</h2>
+										<p>Before you miss the chance to get your seat!</p>
+									</div>
+									<!-- Form -->
+									<form class="form" action="#">
+										<div class="form-group">
+											<label>Enter Your name</label>
+											<input name="name" type="text" placeholder="John Mathew">
+										</div>
+										<div class="form-group">
+											<label>Enter Your Email</label>
+											<input name="email" type="email" placeholder="john@youremail.com">
+										</div>
+										<div class="form-group">
+											<label>Type your messages</label>
+											<textarea name="message" placeholder="i would like to talking..."></textarea>
+										</div>
+										<div class="form-group button">
+											<button type="submit" class="btn">Register Now</button>
+										</div>
+									</form>
+									<!--/ End Form -->
+								</div>
+								<!-- Single Enroll -->
 							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-12">
-							<div class="form-head">
-								<!-- Form -->
-								<form class="form" action="mail/mail.php">
-									<div class="form-group">
-										<input name="name" type="text" placeholder="Enter Name">
+							<div class="col-lg-6 col-12">
+								<div class="enroll-right">
+									<div class="section-title">
+										<h2>We Have More than 28,690+ Student With online Join!</h2>
+										<p>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis.</p>
 									</div>
-									<div class="form-group">
-										<input name="email" type="email" placeholder="Email Address">
-									</div>
-									<div class="form-group">
-										<input name="subject" type="text" placeholder="Website">
-									</div>
-									<div class="form-group">
-										<textarea name="message" placeholder="Comment"></textarea>
-									</div>
-									<div class="form-group">
-										<div class="button">
-											<button type="submit" class="btn primary">Post Message</button>
+								</div>
+								<!-- Skill Main -->
+								<div class="skill-main">
+									<div class="row">
+										<div class="col-lg-4 col-md-4 col-12 wow zoomIn" data-wow-delay="0.8s">
+											<!-- Single Skill -->
+											<div class="single-skill">
+												<div class="circle" data-value="0.7" data-size="130">
+													<strong>28K+</strong>
+												</div>
+												<h4>Students</h4>
+											</div>
+											<!--/ End Single Skill -->
+										</div>
+										<div class="col-lg-4 col-md-4 col-12 wow zoomIn" data-wow-delay="1s">
+											<!-- Single Skill -->
+											<div class="single-skill">
+												<div class="circle" data-value="0.9" data-size="130">
+													<strong>50+</strong>
+												</div>
+												<h4>Courses</h4>
+											</div>
+											<!--/ End Single Skill -->
+										</div>
+										<div class="col-lg-4 col-md-4 col-12 wow zoomIn" data-wow-delay="1.2s">
+											<!-- Single Skill -->
+											<div class="single-skill">
+												<div class="circle" data-value="0.8" data-size="130">
+													<strong>33+</strong>
+												</div>
+												<h4>Teachers</h4>
+											</div>
+											<!--/ End Single Skill -->
 										</div>
 									</div>
-								</form>
-								<!--/ End Form -->
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="contact-bottom">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-12">
-							<!-- Contact-Info -->
-							<div class="contact-info">
-								<div class="icon"><i class="fa fa-map"></i></div>
-								<h3>Location</h3>
-								<p>Plot 1419 TSM House, Gudu District, Apo, Abuja, Nigeria.</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-12">
-							<!-- Contact-Info -->
-							<div class="contact-info">
-								<div class="icon"><i class="fa fa-envelope"></i></div>
-								<h3>Email Address</h3>
-								<a href="mailto:info@nevs.com.ng">info@nevs.com.ng</a>
-								<a href="mailto:support@nevs.com.ng">support@nevs.com.ng</a>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-12">
-							<!-- Contact-Info -->
-							<div class="contact-info">
-								<div class="icon"><i class="fa fa-phone"></i></div>
-								<h3>Get in Touch</h3>
-								<p>+ (234) 0803 071 8122</p>
-								<p>+ (234) 0806 919 1412</p>
+								</div>
+								<!--/ End Skill Main -->
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!--/ End Contact Us -->
+		<!--/ End Enroll -->
+
+			
 		
-        <?php include('helpers/footer.php'); ?>
-        
-        	<!-- Jquery JS-->
-            <script src="js/jquery.min.js"></script>
+		
+		
+	
+		
+			
+		<!-- Footer -->
+		<?php include('helpers/footer.php'); ?>
+		<!--/ End Footer -->
+		
+		<!-- Jquery JS-->
+        <script src="js/jquery.min.js"></script>
         <script src="js/jquery-migrate.min.js"></script>
 		<!-- Popper JS-->
         <script src="js/popper.min.js"></script>
@@ -188,7 +191,6 @@
 		<!-- Google Maps JS -->
 		<script src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
         <script src="js/gmaps.min.js"></script>
-        <script src="js/map-script.js"></script>
 		<!-- Main JS-->
         <script src="js/main.js"></script>
     </body>
