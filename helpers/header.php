@@ -118,7 +118,7 @@
 										<li class="<?php if($page == 2){ echo"active";} ?>"><a href="#">ABOUT NEVS<i></i></a>
 											
 										</li>
-										<li class="<?php if($page == 3){ echo"active";} ?>"><a href="#">FAQs<i></i></a> 
+										<li class="<?php if($page == 3){ echo"active";} ?>"><a href="faq.php">FAQs<i></i></a> 
 											<!--<ul class="dropdown">
 												<li><a href="#">Courses</a></li>
 												<li><a href="#">Course Single</a></li>
