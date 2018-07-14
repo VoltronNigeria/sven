@@ -10,7 +10,7 @@
 		<meta name='copyright' content=''>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Title -->
-		<title>LearnEdu &minus; Education & Courses HTML5 Template</title>
+		<title>Enrollment &minus; Nigeria Education Verification Systems</title>
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="images/favicon.png">
 		<!-- Web Font -->
@@ -80,6 +80,12 @@
 											<input name="email" type="email" placeholder="john@youremail.com">
 										</div>
 										<div class="form-group">
+											<label>Institution</label>
+											<select name="schools">
+												<option>University of Ibadan</option>
+											</select>
+										</div>
+										<div class="form-group">
 											<label>Type your messages</label>
 											<textarea name="message" placeholder="i would like to talking..."></textarea>
 										</div>
@@ -142,12 +148,6 @@
 		</section>
 		<!--/ End Enroll -->
 
-			
-		
-		
-		
-	
-		
 			
 		<!-- Footer -->
 		<?php include('helpers/footer.php'); ?>

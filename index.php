@@ -120,14 +120,7 @@
 			</div>
 		</section>
 		<!--/ End Slider Area -->
-		<style>
-				#map{
-				  height:400px;
-				  width:100%;
-				}
-			  </style>
 		
-
 		<!-- Events -->
 		<section class="events section">
 			<div class="container">
@@ -314,9 +307,7 @@
       }
     }
   </script>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpUnsp69KIVbh6tMHPNdj_yqT6pKtrN4A&callback=initMap">
-  </script>
+ 
 		<!-- Fun Facts -->
 		<div class="fun-facts overlay" data-stellar-background-ratio="0.5">
 			<div class="container">
@@ -398,9 +389,10 @@
 		<script src="js/wow.min.js"></script>
 		<!-- Scroll Up JS-->
         <script src="js/jquery.scrollUp.min.js"></script>
-		<!-- Google Maps JS
-        <script src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
-         -->
+		<!-- Google Maps JS  -->
+		<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpUnsp69KIVbh6tMHPNdj_yqT6pKtrN4A&callback=initMap">
+   </script>
         <script src="js/gmaps.min.js"></script>
 		<!-- Main JS-->
         <script src="js/main.js"></script>
